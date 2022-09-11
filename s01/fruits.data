@@ -1,0 +1,20 @@
+#
+# Time-stamp: <2022/09/10 07:35:40 (CST) daisuke>
+#
+# file: fruits.data
+#
+#  format of this file:
+#   first column:  fruit name
+#   second column: unit price
+#   third column:  quantity
+#
+apple       60  3
+banana      10 10
+orange      30  5
+watermelon 100  1
+grape      150  1
+guava       20  4
+papaya      50  2
+durian     200  1
+peach      180  3
+lemon       15  6
