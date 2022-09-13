@@ -1,6 +1,8 @@
 # Astroinformatics (first semester, academic year 2022) #
 
-The repository for the course "Astroinformatics" offered at Institute of Astronomy, National Central University, from Sep/2022 to Jan/2023.
+This is the repository for the course "Astroinformatics" offered at Institute of Astronomy, National Central University, from Sep/2022 to Jan/2023.
+
+For "Astroinformatics", we write Python scripts and do astronomy.
 
 ## Course web page ##
 
