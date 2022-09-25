@@ -1,4 +1,5 @@
 dependencies:
+  - python=3.9
   - pint
   - uncertainties
   - numpy
