@@ -14,5 +14,5 @@ https://mybinder.org/v2/gh/kinoshitadaisuke/ncu_astroinformatics_202209/HEAD
 
 ## Video files ##
 
-(https://s3b.astro.ncu.edu.tw/ai_202209/video/solsys_3d_struct3_with_audio.mp4)
+(https://s3b.astro.ncu.edu.tw/ai_202209/video/solsys_3d_struct3_with_audio.mp4 "Structure of Inner Solar System")
 
