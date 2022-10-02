@@ -1,6 +1,8 @@
 dependencies:
+  - astropy
+  - astroquery
   - matplotlib
   - numpy
   - pint
-  - python>=3.9
+  - python=3.9
   - uncertainties
