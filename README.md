@@ -14,5 +14,4 @@ https://mybinder.org/v2/gh/kinoshitadaisuke/ncu_astroinformatics_202209/HEAD
 
 ## Video files ##
 
-https://s3b.astro.ncu.edu.tw/ai_202209/video/solsys_3d_struct3_with_audio.mp4
-
+<div><video controls src="https://s3b.astro.ncu.edu.tw/ai_202209/video/solsys_3d_struct3_with_audio.mp4" muted="false"></video></div>
