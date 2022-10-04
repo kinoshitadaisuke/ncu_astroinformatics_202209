@@ -1,6 +1,7 @@
 dependencies:
   - astropy
   - astroquery
+  - ffmpeg
   - matplotlib
   - numpy
   - pint
