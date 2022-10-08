@@ -10,6 +10,7 @@ https://s3b.astro.ncu.edu.tw/ai_202209/
 
 Course material can be downloaded from above page.
 If you are not taking the course "Astroinformatics" and are willing to download the course material, contact to me.
+(contact address: https://www.instagram.com/daisuke23888/)
 
 ## Binder web page ##
 
