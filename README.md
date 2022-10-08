@@ -8,6 +8,9 @@ For "Astroinformatics", we write Python scripts and do astronomy.
 
 https://s3b.astro.ncu.edu.tw/ai_202209/
 
+Course material can be downloaded from above page.
+If you are not taking the course "Astroinformatics" and are willing to download the course material, contact to me.
+
 ## Binder web page ##
 
 https://mybinder.org/v2/gh/kinoshitadaisuke/ncu_astroinformatics_202209/HEAD
