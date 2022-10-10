@@ -1,7 +1,7 @@
 #!/usr/pkg/bin/python3.9
 
 #
-# Time-stamp: <2022/10/10 20:44:00 (CST) daisuke>
+# Time-stamp: <2022/10/11 06:34:11 (CST) daisuke>
 #
 
 # importing scipy module
@@ -18,6 +18,7 @@ print (f'{rg}')
 # calculation of statistical values
 stat_values = scipy.stats.describe (rg)
 
+# printing statistical values
 print (f'statistical values:')
 print (f'  number of data = {stat_values.nobs}')
 print (f'  minimum value  = {stat_values.minmax[0]:8.4f}')
