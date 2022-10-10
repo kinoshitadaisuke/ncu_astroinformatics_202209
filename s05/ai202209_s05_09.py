@@ -1,11 +1,8 @@
 #!/usr/pkg/bin/python3.9
 
 #
-# Time-stamp: <2022/10/10 10:16:19 (CST) daisuke>
+# Time-stamp: <2022/10/10 20:43:43 (CST) daisuke>
 #
-
-# importing numpy module
-import numpy
 
 # importing scipy module
 import scipy.stats
@@ -18,8 +15,17 @@ rg = scipy.stats.norm.rvs (loc=100.0, scale=10.0, size=10000)
 print (f'generated random numbers:')
 print (f'{rg}')
 
+# finding minimum value
+tmin = scipy.stats.tmin (rg)
+
+# finding maximum value
+tmax = scipy.stats.tmax (rg)
+
 # calculation of arithmetic mean of distribution
 mean = scipy.stats.tmean (rg)
+
+# calculation of variance of distribution
+var = scipy.stats.tvar (rg)
 
 # calculation of standard deviation of distribution
 stddev = scipy.stats.tstd (rg)
@@ -30,14 +36,12 @@ moment_1 = scipy.stats.moment (rg, moment=1)
 # calculation of second moment about the mean
 moment_2 = scipy.stats.moment (rg, moment=2)
 
-# calculation of skewness
-skew = scipy.stats.skew (rg)
-
 # printing arithmetic mean and standard deviation of distribution
 print (f'statistical values:')
-print (f'  mean                 = {mean:8.4f}')
-print (f'  stddev               = {stddev:8.4f}')
-print (f'  first moment         = {moment_1:8.4f}')
-print (f'  second moment        = {moment_2:8.4f}')
-print (f'  sqrt (second moment) = {numpy.sqrt (moment_2):8.4f}')
-print (f'  skewness             = {skew:8.4f}')
+print (f'  tmin          = {tmin:8.4f}')
+print (f'  tmax          = {tmax:8.4f}')
+print (f'  mean          = {mean:8.4f}')
+print (f'  var           = {var:8.4f}')
+print (f'  stddev        = {stddev:8.4f}')
+print (f'  first moment  = {moment_1:8.4f}')
+print (f'  second moment = {moment_2:8.4f}')

@@ -1,11 +1,8 @@
 #!/usr/pkg/bin/python3.9
 
 #
-# Time-stamp: <2022/10/10 10:16:07 (CST) daisuke>
+# Time-stamp: <2022/10/10 20:43:27 (CST) daisuke>
 #
-
-# importing numpy module
-import numpy
 
 # importing scipy module
 import scipy.stats
@@ -18,13 +15,13 @@ rg = scipy.stats.norm.rvs (loc=100.0, scale=10.0, size=10000)
 print (f'generated random numbers:')
 print (f'{rg}')
 
-# calculation of arithmetic mean of distribution
-mean = scipy.stats.tmean (rg)
+# finding minimum value
+tmin = scipy.stats.tmin (rg)
 
-# calculation of standard deviation of distribution
-stddev = scipy.stats.tstd (rg)
+# finding maximum value
+tmax = scipy.stats.tmax (rg)
 
-# printing arithmetic mean and standard deviation of distribution
+# printing minimum and maximum values
 print (f'statistical values:')
-print (f'  mean   = {mean:8.4f}')
-print (f'  stddev = {stddev:8.4f}')
+print (f'  tmin = {tmin:8.4f}')
+print (f'  tmax = {tmax:8.4f}')
