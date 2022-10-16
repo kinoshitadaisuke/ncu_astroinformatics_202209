@@ -1,14 +1,8 @@
 #!/usr/pkg/bin/python3.9
 
 #
-# Time-stamp: <2022/10/15 20:46:22 (CST) daisuke>
+# Time-stamp: <2022/10/16 13:27:14 (CST) daisuke>
 #
-
-# importing argparse module
-import argparse
-
-# importing sys module
-import sys
 
 # importing numpy module
 import numpy

@@ -1,7 +1,7 @@
 #!/usr/pkg/bin/python3.9
 
 #
-# Time-stamp: <2022/10/13 08:58:55 (CST) daisuke>
+# Time-stamp: <2022/10/16 23:50:50 (CST) daisuke>
 #
 
 # importing numpy module
@@ -26,7 +26,7 @@ data_y = 2.0 * numpy.sin (data_x - 1.0) + 3.0
 print (f'data_x = {data_x}')
 print (f'data_y = {data_y}')
 
-# making a function for quadratic interpolation
+# making a function for linear interpolation
 func_interp = scipy.interpolate.interp1d (data_x, data_y, kind='linear')
 
 # getting Y-value for X-value at x=5.5

@@ -1,7 +1,7 @@
 #!/usr/pkg/bin/python3.9
 
 #
-# Time-stamp: <2022/10/16 13:54:18 (CST) daisuke>
+# Time-stamp: <2022/10/17 01:00:02 (CST) daisuke>
 #
 
 # importing numpy module
