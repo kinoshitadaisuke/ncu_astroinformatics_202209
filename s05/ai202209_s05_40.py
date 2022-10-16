@@ -1,7 +1,7 @@
 #!/usr/pkg/bin/python3.9
 
 #
-# Time-stamp: <2022/10/16 18:30:02 (CST) daisuke>
+# Time-stamp: <2022/10/17 01:19:17 (CST) daisuke>
 #
 
 # importing sys module
