@@ -12,6 +12,14 @@ Course material for this course can be downloaded from above page.
 If you are not taking the course "Astroinformatics" and are willing to download the course material, contact to me.
 (contact address: https://www.instagram.com/daisuke23888/)
 
+### sessions ###
+
+- session 01: Basic Python Programming
+- session 02: Using Useful Python Modules
+- session 03: Using NumPy
+- session 04: Using Matplotlib
+- session 05: Using SciPy
+
 ## Binder web page ##
 
 https://mybinder.org/v2/gh/kinoshitadaisuke/ncu_astroinformatics_202209/HEAD
