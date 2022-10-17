@@ -31,6 +31,21 @@ If you are not taking the course "Astroinformatics" and are willing to download 
   - string manipulation
   - exceptions
 - session 02: Using Useful Python Modules
+  - using math module
+  - using argparse module
+  - using os module
+  - using sys module
+  - using random module
+  - using statistics module
+  - using decimal module
+  - using urllib module
+  - using pathlib module
+  - using shutil module
+  - using subprocess module
+  - using datetime module
+  - using re module
+  - using pint module
+  - using uncertainties module
 - session 03: Using NumPy
 - session 04: Using Matplotlib
 - session 05: Using SciPy
