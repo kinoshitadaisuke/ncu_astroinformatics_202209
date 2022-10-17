@@ -15,6 +15,21 @@ If you are not taking the course "Astroinformatics" and are willing to download 
 ### Sessions ###
 
 - session 01: Basic Python Programming
+  - using print ()
+  - formatted string literals
+  - .format () method
+  - doing simple calculations
+  - control flow statements
+  - making and using your own function
+  - using lists
+  - using tuples
+  - using sets
+  - using dictionaries
+  - nested sequence structure
+  - reading files
+  - writing files
+  - string manipulation
+  - exceptions
 - session 02: Using Useful Python Modules
 - session 03: Using NumPy
 - session 04: Using Matplotlib
