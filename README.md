@@ -58,6 +58,21 @@ If you are not taking the course "Astroinformatics" and are willing to download 
   - calculating statistical values
   - masked arrays
 - session 04: Using Matplotlib
+  - plotting a line
+  - plotting a curve
+  - plotting a sine curve
+  - plotting a circle
+  - plotting multiple lines/curves
+  - changing properties of lines/curves
+  - plotting data points
+  - attaching errorbars to data points
+  - using logscale
+  - dealing with date/time
+  - making histograms
+  - making scatter plots
+  - making animation
+  - making 3-dimensional plots
+  - 3D structure of inner solar system
 - session 05: Using SciPy
 
 ## Binder web page ##
