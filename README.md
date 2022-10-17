@@ -47,6 +47,16 @@ If you are not taking the course "Astroinformatics" and are willing to download 
   - using pint module
   - using uncertainties module
 - session 03: Using NumPy
+  - Numpy arrays
+  - appending element to Numpy array
+  - concatenating Numpy arrays
+  - operations of Numpy arrays
+  - accessing elements by indexing and slicing
+  - copying Numpy arrays
+  - sorting Numpy arrays
+  - random numbers
+  - calculating statistical values
+  - masked arrays
 - session 04: Using Matplotlib
 - session 05: Using SciPy
 
