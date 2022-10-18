@@ -74,6 +74,15 @@ If you are not taking the course "Astroinformatics" and are willing to download 
   - making 3-dimensional plots
   - 3D structure of inner solar system
 - session 05: Using SciPy
+  - mathematical and physical constants
+  - random numbers
+  - calculating statistical values
+  - linear algebra
+  - interpolation
+  - numerical integration
+  - solving differential equation
+  - optimisation problem
+  - least-squares method
 
 ## Binder web page ##
 
