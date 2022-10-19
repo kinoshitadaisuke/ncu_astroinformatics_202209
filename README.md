@@ -83,6 +83,7 @@ If you are not taking the course "Astroinformatics" and are willing to download 
   - solving differential equation
   - optimisation problem
   - least-squares method
+- session 06: Making and using database
 
 ## Binder web page ##
 
