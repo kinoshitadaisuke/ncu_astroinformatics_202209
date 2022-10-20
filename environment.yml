@@ -7,4 +7,5 @@ dependencies:
   - pint
   - python=3.9
   - scipy
+  - sqlite3
   - uncertainties
