@@ -12,7 +12,7 @@ Course material for this course can be downloaded from above page.
 If you are not taking the course "Astroinformatics" and are willing to download the course material, contact to me.
 (contact address: https://www.instagram.com/daisuke23888/)
 
-### Sessions ###
+## Sessions ##
 
 - session 01: Basic Python Programming
   - using print ()
