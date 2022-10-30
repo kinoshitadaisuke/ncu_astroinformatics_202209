@@ -1,11 +1,8 @@
 #!/usr/pkg/bin/python3.9
 
 #
-# Time-stamp: <2022/10/30 16:56:07 (CST) daisuke>
+# Time-stamp: <2022/10/30 17:44:32 (CST) daisuke>
 #
-
-# importing datetime module
-import datetime
 
 # importing astropy module
 import astropy.time
