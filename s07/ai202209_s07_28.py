@@ -1,7 +1,7 @@
 #!/usr/pkg/bin/python3.9
 
 #
-# Time-stamp: <2022/10/30 05:15:06 (CST) daisuke>
+# Time-stamp: <2022/10/30 09:25:08 (CST) daisuke>
 #
 
 # importing astropy module
@@ -44,8 +44,16 @@ stars.add_row ( ( 472, 'Achernar',       +0.46 * u_mag, -0.16, \
 stars.add_row ( (2061, 'Betelgeuse',     +0.50 * u_mag, +1.85, \
                  0.005 * u_arcsec, 'M2I') )
 
-# printing table
-print (stars)
-
-# printing information of table
-print (stars.info)
+# accessing to elements of table
+print (f'Name of star for the first row:')
+print (f'  stars[0]["Name"]             = {stars[0]["Name"]}')
+print (f'  stars["Name"][0]             = {stars["Name"][0]}')
+print (f'V-band mag of star for the second row:')
+print (f'  stars[1]["V-band mag"]       = {stars[1]["V-band mag"]}')
+print (f'  stars["V-band mag"][1]       = {stars["V-band mag"][1]}')
+print (f'(B-V) colour of star for the 9th row:')
+print (f'  stars[9]["B-V colour index"] = {stars[9]["B-V colour index"]}')
+print (f'  stars["B-V colour index"][9] = {stars["B-V colour index"][9]}')
+print (f'Parallax of star for the 7th row:')
+print (f'  stars[7]["Parallax"]         = {stars[7]["Parallax"]}')
+print (f'  stars["Parallax"][7]         = {stars["Parallax"][7]}')

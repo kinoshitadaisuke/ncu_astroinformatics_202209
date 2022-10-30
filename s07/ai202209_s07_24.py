@@ -1,7 +1,7 @@
 #!/usr/pkg/bin/python3.9
 
 #
-# Time-stamp: <2022/10/29 08:16:05 (CST) daisuke>
+# Time-stamp: <2022/10/30 09:11:28 (CST) daisuke>
 #
 
 # importing astropy module
@@ -38,6 +38,7 @@ stars = astropy.table.QTable ([hr, name, vmag, bv, parallax, sptype], \
                                     'parallax': 'parallax in arcsec', \
                                     'sptype': 'spectral type'} )
 
-# printing metadata of table
-for key in stars.meta.keys ():
-    print (f'{key:8s} : {stars.meta[key]}')
+# printing column names of table
+print (f'stars.colnames = {stars.colnames}')
+print ()
+print (f'stars.columns = {stars.columns}')
