@@ -1,7 +1,7 @@
 #!/usr/pkg/bin/python3.9
 
 #
-# Time-stamp: <2022/10/30 09:33:51 (CST) daisuke>
+# Time-stamp: <2022/10/30 09:40:00 (CST) daisuke>
 #
 
 # importing astropy module
@@ -44,9 +44,12 @@ stars.add_row ( ( 472, 'Achernar',       +0.46 * u_mag, -0.16, \
 stars.add_row ( (2061, 'Betelgeuse',     +0.50 * u_mag, +1.85, \
                  0.005 * u_arcsec, 'M2I') )
 
-# accessing to a column of table
-print (f'printing the column "Name":')
-print (stars["Name"])
+# accessing to a row / rows of table
+print (f'printing data of first column:')
+print (stars[0])
 print ()
-print (f'printing the column "Parallax":')
-print (stars["Parallax"])
+print (f'printing data of 5th column:')
+print (stars[4])
+print ()
+print (f'printing data of 6th, 7th, and 8th columns:')
+print (stars[5:8])
