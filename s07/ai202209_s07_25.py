@@ -1,7 +1,7 @@
 #!/usr/pkg/bin/python3.9
 
 #
-# Time-stamp: <2022/10/29 08:16:05 (CST) daisuke>
+# Time-stamp: <2022/11/01 08:28:01 (CST) daisuke>
 #
 
 # importing astropy module
@@ -9,7 +9,7 @@ import astropy.table
 import astropy.units
 
 # units
-u_mag    = astropy.units.Magnitude (1.0)
+u_mag    = astropy.units.mag
 u_arcsec = astropy.units.arcsec
 
 # data for making Astropy Table
