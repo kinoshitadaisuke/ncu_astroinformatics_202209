@@ -84,6 +84,7 @@ If you are not taking the course "Astroinformatics" and are willing to download 
   - optimisation problem
   - least-squares method
 - session 06: Making and using database
+- session 07: Using Astropy
 
 ## Binder web page ##
 
