@@ -1,7 +1,7 @@
 #!/usr/pkg/bin/python3.9
 
 #
-# Time-stamp: <2022/11/04 21:20:58 (CST) daisuke>
+# Time-stamp: <2022/11/04 21:25:14 (CST) daisuke>
 #
 
 # importing astropy module
@@ -35,11 +35,10 @@ observer = astroplan.Observer (location=location, name='NCU', \
 # printing created observer object
 print (observer)
 
-# local apparent solar midnight
-midnight_guess = astropy.time.Time ('2022-11-07 16:00:00', \
-                                    format='iso', scale='utc')
-midnight = observer.midnight (midnight_guess, which='nearest', \
-                              n_grid_points=500)
+# local apparent solar noon
+noon_guess = astropy.time.Time ('2022-11-07 04:00:00', \
+                                format='iso', scale='utc')
+noon = observer.noon (noon_guess, which='nearest', n_grid_points=500)
 
 # printing local apparent solar midnight
-print (f'local midnight = JD {midnight.jd} = {midnight.iso}')
+print (f'local noon = JD {noon.jd} = {noon.iso}')
