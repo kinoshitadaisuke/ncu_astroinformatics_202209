@@ -1,7 +1,7 @@
 #!/usr/pkg/bin/python3.9
 
 #
-# Time-stamp: <2022/11/05 13:52:32 (CST) daisuke>
+# Time-stamp: <2022/11/05 22:47:58 (CST) daisuke>
 #
 
 # importing numpy module
@@ -102,4 +102,4 @@ ax.xaxis.set_minor_locator (days)
 fig.autofmt_xdate()
 
 # saving file
-fig.savefig (file_output)
+fig.savefig (file_output, dpi=225)
