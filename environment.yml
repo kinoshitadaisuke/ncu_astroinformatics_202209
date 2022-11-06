@@ -1,4 +1,5 @@
 dependencies:
+  - astroplan
   - astropy
   - astroquery
   - ffmpeg
