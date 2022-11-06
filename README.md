@@ -85,6 +85,7 @@ If you are not taking the course "Astroinformatics" and are willing to download 
   - least-squares method
 - session 06: Making and using database
 - session 07: Using Astropy
+- session 08: Sun, Moon, and observation planning
 
 ## Binder web page ##
 
