@@ -1,7 +1,7 @@
 #!/usr/pkg/bin/python3.9
 
 #
-# Time-stamp: <2022/11/10 16:10:52 (CST) daisuke>
+# Time-stamp: <2022/11/10 16:45:33 (CST) daisuke>
 #
 
 # importing numpy module
@@ -9,6 +9,13 @@ import numpy
 
 # importing scipy module
 import scipy.constants
+
+# importing matplotlib module
+import matplotlib.figure
+import matplotlib.backends.backend_agg
+
+# output file name
+file_output = 'ai202209_s09_00_05.png'
 
 #
 # constants
@@ -40,7 +47,7 @@ def bb_lambda (T):
     return (blackbody)
 
 # temperature of blackbody
-T = 3000.0
+T = 5800.0
 
 # printing temperature of blackbody
 print (f'Temperature:')
@@ -61,3 +68,26 @@ print (f'Wavelength:')
 print (f'{wavelength}')
 print (f'Planck function:')
 print (f'{bb_5800}')
+
+# making objects "fig", "canvas", and "ax"
+fig    = matplotlib.figure.Figure ()
+canvas = matplotlib.backends.backend_agg.FigureCanvasAgg (fig)
+ax     = fig.add_subplot (111)
+
+# labels
+ax.set_xlabel ('Wavelength [$\mu$m]')
+ax.set_ylabel ('Specific Intensity [W sr$^{-1}$ m$^{-3}$]')
+
+# axes
+ax.set_xscale ('log')
+ax.set_yscale ('log')
+ax.set_xlim (0.03, 1000.0)
+ax.set_ylim (None, bb_5800.max () * 3)
+
+# plotting data
+ax.plot (wavelength * 10**6, bb_5800, linestyle='-', color='r', \
+         linewidth=3, label='Blackbody of T = 5800 K')
+ax.legend ()
+
+# saving the plot into a file
+fig.savefig (file_output, dpi=225)

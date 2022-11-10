@@ -1,7 +1,7 @@
 #!/usr/pkg/bin/python3.9
 
 #
-# Time-stamp: <2022/11/10 13:39:00 (CST) daisuke>
+# Time-stamp: <2022/11/10 16:35:10 (CST) daisuke>
 #
 
 # importing numpy module
@@ -22,19 +22,29 @@ file_output = 'ai202209_s09_00_04.png'
 #
 
 # speed of light
-c = scipy.constants.c
+c = scipy.constants.physical_constants['speed of light in vacuum']
 
 # Planck constant
-h = scipy.constants.h
+h = scipy.constants.physical_constants['Planck constant']
 
 # Boltzmann constant
-k = scipy.constants.k
+k = scipy.constants.physical_constants['Boltzmann constant']
 
 # printing values of constants
 print (f'Constants:')
-print (f'  c = {c:g}')
-print (f'  h = {h:g}')
-print (f'  k = {k:g}')
+print (f'  c = {c[0]:g} [{c[1]}]')
+print (f'  h = {h[0]:g} [{h[1]}]')
+print (f'  k = {k[0]:g} [{k[1]}]')
+
+#
+# function to calculate blackbody curve
+#
+def bb_lambda (T):
+    # calculation of Planck function
+    blackbody = 2.0 * h[0] * c[0]**2 / wavelength**5 \
+        / (numpy.exp (h[0] * c[0] / (wavelength * k[0] * T) ) - 1.0 )
+    # returning blackbody curve
+    return (blackbody)
 
 # temperature of blackbody
 T = 5800.0
@@ -43,22 +53,21 @@ T = 5800.0
 print (f'Temperature:')
 print (f'  T = {T} K')
 
-# range of wavelength (from 10**-8 m = 10 nm to 10**-4 m = 100 micron)
+# range of wavelength (from 10**-8 m = 10 nm to 10**-3 m = 1 mm)
 wavelength_min = -8.0
-wavelength_max = -4.0
+wavelength_max = -3.0
 
 # wavelength in metre
-wavelength = numpy.logspace (wavelength_min, wavelength_max, num=4001)
+wavelength = numpy.logspace (wavelength_min, wavelength_max, num=5001)
 
-# calculation of Planck function
-blackbody = 2.0 * h * c**2 / wavelength**5 \
-    / (numpy.exp (h * c / (wavelength * k * T) ) - 1.0 )
+# T = 5800 K blackbody spectrum
+bb_5800 = bb_lambda (T)
 
 # printing Planck function
 print (f'Wavelength:')
 print (f'{wavelength}')
 print (f'Planck function:')
-print (f'{blackbody}')
+print (f'{bb_5800}')
 
 # making objects "fig", "canvas", and "ax"
 fig    = matplotlib.figure.Figure ()
@@ -70,13 +79,11 @@ ax.set_xlabel ('Wavelength [$\mu$m]')
 ax.set_ylabel ('Specific Intensity [W sr$^{-1}$ m$^{-3}$]')
 
 # axes
-ax.set_xlim (0.03, 30.0)
-ax.set_ylim (10**9, 10**14)
-ax.set_xscale ('log')
-ax.set_yscale ('log')
+ax.set_xlim (0.03, 5.0)
+ax.set_ylim (0.0, bb_5800.max () * 1.2)
 
 # plotting data
-ax.plot (wavelength * 10**6, blackbody, linestyle='-', color='r', \
+ax.plot (wavelength * 10**6, bb_5800, linestyle='-', color='r', \
          linewidth=3, label='Blackbody of T = 5800 K')
 ax.legend ()
 
