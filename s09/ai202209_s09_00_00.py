@@ -1,7 +1,7 @@
 #!/usr/pkg/bin/python3.9
 
 #
-# Time-stamp: <2022/11/10 09:51:23 (CST) daisuke>
+# Time-stamp: <2022/11/10 13:09:16 (CST) daisuke>
 #
 
 # importing scipy module
@@ -21,6 +21,7 @@ h = scipy.constants.h
 k = scipy.constants.k
 
 # printing values of constants
-print (f'c = {c:g}')
-print (f'h = {h:g}')
-print (f'k = {k:g}')
+print (f'Constants:')
+print (f'  c = {c:g}')
+print (f'  h = {h:g}')
+print (f'  k = {k:g}')
