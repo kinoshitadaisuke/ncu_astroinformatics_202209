@@ -1,7 +1,7 @@
 #!/usr/pkg/bin/python3.9
 
 #
-# Time-stamp: <2022/11/11 09:18:20 (CST) daisuke>
+# Time-stamp: <2022/11/11 13:26:39 (CST) daisuke>
 #
 
 # importing numpy module
@@ -20,7 +20,7 @@ file_output = 'ai202209_s09_00_04.png'
 #
 # function to calculate blackbody curve
 #
-def bb_lambda (T, wavelength):
+def bb_lambda (wavelength, T):
     # speed of light
     c = scipy.constants.physical_constants['speed of light in vacuum']
 
@@ -52,7 +52,7 @@ wavelength_max = -3.0
 wavelength = numpy.logspace (wavelength_min, wavelength_max, num=5001)
 
 # T = 5800 K blackbody spectrum
-bb_5800 = bb_lambda (T, wavelength)
+bb_5800 = bb_lambda (wavelength, T)
 
 # printing Planck function
 print (f'Wavelength:')
