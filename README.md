@@ -86,6 +86,7 @@ If you are not taking the course "Astroinformatics" and are willing to download 
 - session 06: Making and using database
 - session 07: Using Astropy
 - session 08: Sun, Moon, and observation planning
+- session 09: Blackbody radiation
 
 ## Binder web page ##
 
