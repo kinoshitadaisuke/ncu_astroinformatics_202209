@@ -1,7 +1,7 @@
 #!/usr/pkg/bin/python3.9
 
 #
-# Time-stamp: <2022/11/11 13:50:46 (CST) daisuke>
+# Time-stamp: <2022/11/13 07:35:33 (CST) daisuke>
 #
 
 # importing numpy module
@@ -10,10 +10,6 @@ import numpy
 # importing scipy module
 import scipy.constants
 import scipy.optimize
-
-# importing matplotlib module
-import matplotlib.figure
-import matplotlib.backends.backend_agg
 
 #
 # function to calculate blackbody curve
