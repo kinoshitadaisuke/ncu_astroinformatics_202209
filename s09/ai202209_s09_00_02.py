@@ -1,7 +1,7 @@
 #!/usr/pkg/bin/python3.9
 
 #
-# Time-stamp: <2022/11/11 13:25:48 (CST) daisuke>
+# Time-stamp: <2022/11/13 09:12:39 (CST) daisuke>
 #
 
 # importing numpy module
@@ -44,11 +44,11 @@ wavelength_max = -3.0
 # wavelength in metre
 wavelength = numpy.logspace (wavelength_min, wavelength_max, num=5001)
 
-# T = 5800 K blackbody spectrum
-bb_5800 = bb_lambda (wavelength, T)
+# T = 3000 K blackbody spectrum
+bb_3000 = bb_lambda (wavelength, T)
 
 # printing Planck function
 print (f'Wavelength:')
 print (f'{wavelength}')
 print (f'Planck function:')
-print (f'{bb_5800}')
+print (f'{bb_3000}')
