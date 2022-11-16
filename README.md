@@ -84,6 +84,15 @@ If you are not taking the course "Astroinformatics" and are willing to download 
   - optimisation problem
   - least-squares method
 - session 06: Making and using database
+  - SQLite
+  - making a small database
+  - constructing element database
+  - constructing database from Bright Star Catalogue
+  - making a database from Hipparchos catalogue
+  - making asteroid orbit database
+  - exoplanet database
+  - variable star database
+  - brown dwarf database
 - session 07: Using Astropy
 - session 08: Sun, Moon, and observation planning
 - session 09: Blackbody radiation
