@@ -94,6 +94,13 @@ If you are not taking the course "Astroinformatics" and are willing to download 
   - variable star database
   - brown dwarf database
 - session 07: Using Astropy
+  - constants
+  - units
+  - Astropy's data table
+  - date and time
+  - astronomical coordinates
+  - sigma-clipping
+  - FITS file I/O
 - session 08: Sun, Moon, and observation planning
 - session 09: Blackbody radiation
 
