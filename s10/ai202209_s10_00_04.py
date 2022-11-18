@@ -1,7 +1,7 @@
 #!/usr/pkg/bin/python3.9
 
 #
-# Time-stamp: <2022/11/18 15:41:25 (CST) daisuke>
+# Time-stamp: <2022/11/18 23:00:20 (CST) daisuke>
 #
 
 # importing gzip module
@@ -67,9 +67,9 @@ with gzip.open (file_catalogue, 'rb') as fh:
             node = -999.99
         # inclination
         try:
-            i = float (line[59:68])
+            incl = float (line[59:68])
         except:
-            i = -999.99
+            incl = -999.99
         # eccentricity
         try:
             e = float (line[70:79])
@@ -107,7 +107,7 @@ with gzip.open (file_catalogue, 'rb') as fh:
             lastobs = 99999999
 
         # skip when reading the header
-        if ( (a < -999.0) and (e < -999.0) and (i < -999.0) \
+        if ( (a < -999.0) and (e < -999.0) and (incl < -999.0) \
              and (peri < -999.0) and (node < -999.0) and (M < -999.0) ):
             continue
             
@@ -132,7 +132,6 @@ ax.set_xlabel ('Semimajor axis [au]')
 ax.set_ylabel ('Number of asteroids')
 
 # axes
-fig.tight_layout ()
 ax.set_xlim (0.0, 10.0)
 ax.set_xticks (numpy.linspace (0.0, 10.0, 11))
 
