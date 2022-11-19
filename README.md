@@ -102,6 +102,13 @@ If you are not taking the course "Astroinformatics" and are willing to download 
   - sigma-clipping
   - FITS file I/O
 - session 08: Sun, Moon, and observation planning
+  - constructing observer object
+  - day and night
+  - Moon
+  - stars
+  - airmass
+  - sky chart
+  - finding chart
 - session 09: Blackbody radiation
 
 ## Binder web page ##
