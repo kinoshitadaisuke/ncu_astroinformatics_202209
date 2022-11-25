@@ -111,6 +111,7 @@ If you are not taking the course "Astroinformatics" and are willing to download 
   - finding chart
 - session 09: Blackbody radiation
 - session 10: Distributions of asteroids, stars, and galaxies
+- session 11: Periodicity analysis 1 (Phase Dispersion Minimisation)
 
 ## Binder web page ##
 
