@@ -1,7 +1,7 @@
 #!/usr/pkg/bin/python3.9
 
 #
-# Time-stamp: <2022/11/27 21:07:20 (CST) daisuke>
+# Time-stamp: <2022/11/28 03:15:58 (CST) daisuke>
 #
 
 # importing numpy module
@@ -79,12 +79,12 @@ c_fitted = popt[2]
 
 # degree of freedom
 dof = len (data_fit_per) - 3
-print ("dof = {dof}")
+print (f"dof = {dof}")
 
 # residual
 residual = data_fit_var - func (data_fit_per, a_fitted, b_fitted, c_fitted)
 reduced_chi2 = (residual**2).sum () / dof
-print ("reduced chi^2 = {reduced_chi2}")
+print (f"reduced chi^2 = {reduced_chi2}")
 
 # errors of a and b
 a_err = numpy.sqrt (pcov[0][0])
