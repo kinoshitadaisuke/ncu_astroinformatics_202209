@@ -110,6 +110,11 @@ If you are not taking the course "Astroinformatics" and are willing to download 
   - sky chart
   - finding chart
 - session 09: Blackbody radiation
+  - Planck's radiation law
+  - blackbody calculation using Astropy
+  - solar spectrum
+  - spectrum of HD 61005
+  - cosmic microwave background
 - session 10: Distributions of asteroids, stars, and galaxies
 - session 11: Periodicity analysis 1 (Phase Dispersion Minimisation)
 - session 12: Periodicity analysis 2 (Lomb-Scargle periodogram)
