@@ -1,7 +1,7 @@
 #!/usr/pkg/bin/python3.9
 
 #
-# Time-stamp: <2022/12/02 23:56:47 (CST) daisuke>
+# Time-stamp: <2022/12/02 23:58:37 (CST) daisuke>
 #
 
 # importing argparse module
@@ -54,9 +54,9 @@ with open (file_data, 'r') as fh:
         data_err = numpy.append (data_err, err)
 
 # making objects "fig" and "ax"
-fig = matplotlib.figure.Figure ()
-matplotlib.backends.backend_agg.FigureCanvasAgg (fig)
-ax = fig.add_subplot (111)
+fig     = matplotlib.figure.Figure ()
+canvasu = matplotlib.backends.backend_agg.FigureCanvasAgg (fig)
+ax      = fig.add_subplot (111)
 
 # labels
 label_x = 'MJD [day]'
