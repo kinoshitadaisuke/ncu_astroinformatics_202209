@@ -1,7 +1,7 @@
 #!/usr/pkg/bin/python3.9
 
 #
-# Time-stamp: <2022/12/02 23:58:37 (CST) daisuke>
+# Time-stamp: <2022/12/03 00:01:16 (CST) daisuke>
 #
 
 # importing argparse module
@@ -17,9 +17,9 @@ import matplotlib.backends.backend_agg
 # command-line argument analysis
 parser = argparse.ArgumentParser (description='plotting time-series data')
 parser.add_argument ('-i', type=str, default="in.data", \
-                     help='input data file name')
-parser.add_argument ('-o', type=str, default="out.pdf", \
-                     help='output figure file name')
+                     help='input data file name (default: in.data)')
+parser.add_argument ('-o', type=str, default="out.png", \
+                     help='output figure file name (default: out.png)')
 args = parser.parse_args ()
 
 # data file name
@@ -59,17 +59,17 @@ canvasu = matplotlib.backends.backend_agg.FigureCanvasAgg (fig)
 ax      = fig.add_subplot (111)
 
 # labels
-label_x = 'MJD [day]'
-label_y = 'Magnitude [mag]'
-ax.set_xlabel (label_x)
-ax.set_ylabel (label_y)
+ax.set_xlabel ('MJD [day]')
+ax.set_ylabel ('Magnitude [mag]')
 
-# range
+# axes
 ax.invert_yaxis ()
+ax.get_xaxis ().get_major_formatter ().set_useOffset (False)
 
 # plotting data
-ax.get_xaxis ().get_major_formatter ().set_useOffset (False)
-ax.plot (data_mjd, data_mag, 'b.', label='synthetic time-series data')
+ax.plot (data_mjd, data_mag, \
+         linestyle='None', marker='.', color='b', \
+         label='synthetic time-series data')
 ax.legend (bbox_to_anchor=(1.0, 1.12), loc='upper right')
 
 # saving the plot into a file
