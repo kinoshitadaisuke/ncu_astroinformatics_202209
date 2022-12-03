@@ -1,7 +1,7 @@
 #!/usr/pkg/bin/python3.9
 
 #
-# Time-stamp: <2022/12/03 23:51:32 (CST) daisuke>
+# Time-stamp: <2022/12/03 23:52:58 (CST) daisuke>
 #
 
 # importing argparse module
@@ -80,7 +80,7 @@ with open (file_data, 'r') as fh:
 # making a plot
 #
         
-# making objects "fig" and "ax"
+# making objects "fig", "canvas", and "ax"
 fig    = matplotlib.figure.Figure ()
 canvas = matplotlib.backends.backend_agg.FigureCanvasAgg (fig)
 ax     = fig.add_subplot (111)
