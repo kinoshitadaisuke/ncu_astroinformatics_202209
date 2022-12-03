@@ -1,7 +1,7 @@
 #!/usr/pkg/bin/python3.9
 
 #
-# Time-stamp: <2022/12/02 23:51:16 (CST) daisuke>
+# Time-stamp: <2022/12/03 16:06:14 (CST) daisuke>
 #
 
 # importing argparse module
@@ -13,8 +13,14 @@ import numpy
 # importing astropy module
 import astropy.time
 
+#
 # command-line argument analysis
+#
+
+# constructing parser object
 parser = argparse.ArgumentParser (description='synthetic data generation')
+
+# adding arguments
 parser.add_argument ('-o', type=str, default="out.data", \
                      help='output file name')
 parser.add_argument ('-s', type=str, default="2000-01-01T12:00:00", \
@@ -31,7 +37,13 @@ parser.add_argument ('-u', type=float, default=0.1, \
                      help='error in mag')
 parser.add_argument ('-t', type=float, default=180.0, \
                      help='time interval between exposures in sec')
+
+# parsing arguments
 args = parser.parse_args ()
+
+#
+# input parameters
+#
 
 # output file name
 file_data = args.o
@@ -63,12 +75,18 @@ mag_error = args.u
 interval_sec = args.t
 interval_day = interval_sec / 86400.0
 
-# function
+#
+# function for generating synthetic data
+#
 def func (t, t_epoch, period_day, amplitude, mag_mean):
     mag = amplitude \
         * numpy.sin (2.0 * numpy.pi * (t - t_epoch) / period_day) \
         + mag_mean
     return (mag)
+
+#
+# writing data into a file
+#
 
 # opening file for writing
 with open (file_data, 'w') as fh:
