@@ -1,7 +1,7 @@
 #!/usr/pkg/bin/python3.9
 
 #
-# Time-stamp: <2022/12/03 00:01:16 (CST) daisuke>
+# Time-stamp: <2022/12/03 16:07:39 (CST) daisuke>
 #
 
 # importing argparse module
@@ -14,19 +14,35 @@ import numpy
 import matplotlib.figure
 import matplotlib.backends.backend_agg
 
+#
 # command-line argument analysis
+#
+
+# constructing parser object
 parser = argparse.ArgumentParser (description='plotting time-series data')
+
+# adding arguments
 parser.add_argument ('-i', type=str, default="in.data", \
                      help='input data file name (default: in.data)')
 parser.add_argument ('-o', type=str, default="out.png", \
                      help='output figure file name (default: out.png)')
+
+# parsing arguments
 args = parser.parse_args ()
+
+#
+# input parameters
+#
 
 # data file name
 file_data = args.i
 
 # output file name
 file_fig = args.o
+
+#
+# reading data from file
+#
 
 # empty numpy arrays for storing data
 data_mjd = numpy.array ([])
@@ -53,7 +69,11 @@ with open (file_data, 'r') as fh:
         data_mag = numpy.append (data_mag, mag)
         data_err = numpy.append (data_err, err)
 
-# making objects "fig" and "ax"
+#
+# making a plot
+#
+        
+# making objects "fig", "canvas", and "ax"
 fig     = matplotlib.figure.Figure ()
 canvasu = matplotlib.backends.backend_agg.FigureCanvasAgg (fig)
 ax      = fig.add_subplot (111)
