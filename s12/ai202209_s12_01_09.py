@@ -1,7 +1,7 @@
 #!/usr/pkg/bin/python3.9
 
 #
-# Time-stamp: <2022/12/04 15:22:43 (CST) daisuke>
+# Time-stamp: <2022/12/05 00:07:06 (CST) daisuke>
 #
 
 # importing argparse module
@@ -126,7 +126,7 @@ def func (x, a, b, c):
     return y
 
 # least-squares fitting using scipy.optimize.curve_fit
-popt, pcov = scipy.optimize.curve_fit (func, fit_per_hr, fit_power)
+popt, pcov = scipy.optimize.curve_fit (func, fit_per_hr, fit_power, p0=[a,b,c])
 
 # fitted coefficients
 print ("popt:")
