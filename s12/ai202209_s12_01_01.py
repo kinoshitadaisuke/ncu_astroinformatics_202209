@@ -1,7 +1,7 @@
 #!/usr/pkg/bin/python3.9
 
 #
-# Time-stamp: <2022/12/03 16:07:39 (CST) daisuke>
+# Time-stamp: <2022/12/03 21:39:00 (CST) daisuke>
 #
 
 # importing argparse module
@@ -84,7 +84,6 @@ ax.set_ylabel ('Magnitude [mag]')
 
 # axes
 ax.invert_yaxis ()
-ax.get_xaxis ().get_major_formatter ().set_useOffset (False)
 
 # plotting data
 ax.plot (data_mjd, data_mag, \
