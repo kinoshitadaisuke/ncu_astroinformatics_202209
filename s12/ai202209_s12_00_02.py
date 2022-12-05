@@ -1,7 +1,7 @@
 #!/usr/pkg/bin/python3.9
 
 #
-# Time-stamp: <2022/12/02 22:07:56 (CST) daisuke>
+# Time-stamp: <2022/12/05 09:18:31 (CST) daisuke>
 #
 
 # importing argparse module
@@ -35,9 +35,9 @@ a_deg = args.angle
 # conversion from degree into radian
 a_rad = a_deg / 180.0 * math.pi
 
-# calculation of sine
-sin_a = math.sin (a_rad)
+# calculation of cosine
+cos_a = math.cos (a_rad)
 
 # printing result
 print (f"a       = {a_deg} deg")
-print (f"sin (a) = {sin_a}")
+print (f"cos (a) = {cos_a}")
