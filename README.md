@@ -122,6 +122,7 @@ If you are not taking the course "Astroinformatics" and are willing to download 
   - distribution of galaxies
 - session 11: Periodicity analysis 1 (Phase Dispersion Minimisation)
 - session 12: Periodicity analysis 2 (Lomb-Scargle periodogram)
+- session 13: Planetary motion
 
 ## Binder web page ##
 
