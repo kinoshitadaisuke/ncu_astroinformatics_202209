@@ -126,6 +126,11 @@ If you are not taking the course "Astroinformatics" and are willing to download 
   - rotational lightcurve of a trans-Neptunian object
   - variable star data
 - session 12: Periodicity analysis 2 (Lomb-Scargle periodogram)
+  - command-line argument analysis
+  - a simple sinusoidal curve
+  - dealing with more realistic data
+  - analysis of variable star data
+  - finding exoplanet's transit from Kepler data
 - session 13: Planetary motion
 
 ## Binder web page ##
