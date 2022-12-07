@@ -121,6 +121,10 @@ If you are not taking the course "Astroinformatics" and are willing to download 
   - distribution of stars from Hipparcos Catalogue
   - distribution of galaxies
 - session 11: Periodicity analysis 1 (Phase Dispersion Minimisation)
+  - a very simple case
+  - dealing with more realistic data
+  - rotational lightcurve of a trans-Neptunian object
+  - variable star data
 - session 12: Periodicity analysis 2 (Lomb-Scargle periodogram)
 - session 13: Planetary motion
 
