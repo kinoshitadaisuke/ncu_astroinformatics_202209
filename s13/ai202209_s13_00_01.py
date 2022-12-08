@@ -1,7 +1,7 @@
 #!/usr/pkg/bin/python3.9
 
 #
-# Time-stamp: <2022/12/08 15:09:27 (CST) daisuke>
+# Time-stamp: <2022/12/08 15:31:07 (CST) daisuke>
 #
 
 # importing argparse module
@@ -16,7 +16,7 @@ desc = f"availability check of Python modules"
 parser = argparse.ArgumentParser (description=desc)
 
 # adding options
-parser.add_argument ('module', type=str, nargs='+', help=f"module name")
+parser.add_argument ('module', type=str, nargs='+', help=f"module name (e.g. numpy)")
 
 # analysis of command-line arguments
 args = parser.parse_args ()
