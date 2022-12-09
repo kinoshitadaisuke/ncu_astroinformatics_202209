@@ -8,7 +8,6 @@ dependencies:
   - pandas
   - pint
   - python=3.9
+  - rebound
   - scipy
-  - sgp4
-  - skyfield
   - uncertainties
