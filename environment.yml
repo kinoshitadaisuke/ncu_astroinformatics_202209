@@ -7,7 +7,7 @@ dependencies:
   - numpy
   - pandas
   - pint
-  - python=3.10
+  - python=3.9
   - rebound
   - scipy
   - uncertainties
