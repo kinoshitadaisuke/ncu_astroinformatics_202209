@@ -5,8 +5,8 @@ dependencies:
   - ffmpeg
   - matplotlib
   - numpy
-  - pandas
   - pint
   - python=3.9
+  - rebound
   - scipy
   - uncertainties
