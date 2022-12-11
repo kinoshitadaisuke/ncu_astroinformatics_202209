@@ -1,7 +1,7 @@
 #!/usr/pkg/bin/python3.9
 
 #
-# Time-stamp: <2022/12/10 11:00:28 (CST) daisuke>
+# Time-stamp: <2022/12/11 10:03:36 (CST) daisuke>
 #
 
 # importing argparse module
@@ -31,7 +31,7 @@ parser.add_argument ('-t', '--idtype', type=str, choices=choices_idtype, \
                      default=None, help='ID type (default: None)')
 parser.add_argument ('-i', '--targetid', type=str, default='1', \
                      help='ID of target body (default: 1)')
-parser.add_argument ('-l', '--location', type=str, default='@0', \
+parser.add_argument ('-l', '--location', type=str, default='@ssb', \
                      help='location (default: solar system barycenter)')
 parser.add_argument ('-s', '--start', type=str, \
                      default='2000-01-01T12:00:00', \
