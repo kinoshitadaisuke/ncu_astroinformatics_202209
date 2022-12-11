@@ -1,7 +1,7 @@
 #!/usr/pkg/bin/python3.9
 
 #
-# Time-stamp: <2022/12/09 12:43:24 (CST) daisuke>
+# Time-stamp: <2022/12/11 11:05:47 (CST) daisuke>
 #
 
 # importing astropy module
@@ -29,6 +29,9 @@ print (obj)
 
 # getting ephemerides
 ephemerides = obj.ephemerides ()
+
+# printing object type of "ephemerides"
+print (type (ephemerides))
 
 # printing ephemerides
 print (ephemerides)
