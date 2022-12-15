@@ -132,6 +132,7 @@ If you are not taking the course "Astroinformatics" and are willing to download 
   - analysis of variable star data
   - finding exoplanet's transit from Kepler data
 - session 13: Planetary motion and orbital integration
+- session 14: Making a HR diagram of a star cluster using Gaia DR3
 
 ## Binder web page ##
 
