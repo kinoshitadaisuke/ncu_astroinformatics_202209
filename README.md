@@ -132,6 +132,14 @@ If you are not taking the course "Astroinformatics" and are willing to download 
   - analysis of variable star data
   - finding exoplanet's transit from Kepler data
 - session 13: Planetary motion and orbital integration
+  - Check of availability of required Python packages
+  - Using NASA/JPL Horizons System
+  - Playing with Horizons System
+  - Using REBOUND package
+  - A binary system
+  - Orbital motion of comets in solar system
+  - Orbital motion of Jovian Trojan asteroids
+  - Main asteroid belt
 - session 14: Making a HR diagram of a star cluster using Gaia DR3
 
 ## Binder web page ##
