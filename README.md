@@ -141,6 +141,7 @@ If you are not taking the course "Astroinformatics" and are willing to download 
   - Orbital motion of Jovian Trojan asteroids
   - Main asteroid belt
 - session 14: Making a HR diagram of a star cluster using Gaia DR3
+  - downloading astronomical image using astroquery
 
 ## Binder web page ##
 
