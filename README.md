@@ -141,7 +141,14 @@ If you are not taking the course "Astroinformatics" and are willing to download 
   - Orbital motion of Jovian Trojan asteroids
   - Main asteroid belt
 - session 14: Making a HR diagram of a star cluster using Gaia DR3
-  - downloading astronomical image using astroquery
+  - Check of availability of required Python packages
+  - Using a name resolver
+  - Downloading DSS images
+  - Downloading Gaia Catalogue
+  - Reading VOTable files
+  - HR diagram of open cluster NGC 2547
+  - HR diagram of open cluster M67
+  - HR diagram of globular cluster NGC 6397
 
 ## Binder web page ##
 
