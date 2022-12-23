@@ -149,6 +149,7 @@ If you are not taking the course "Astroinformatics" and are willing to download 
   - HR diagram of open cluster NGC 2547
   - HR diagram of open cluster M67
   - HR diagram of globular cluster NGC 6397
+- session 15: Expansion of the Universe
 
 ## Binder web page ##
 
