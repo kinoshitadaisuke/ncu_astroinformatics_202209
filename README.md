@@ -153,6 +153,12 @@ If you are not taking the course "Astroinformatics" and are willing to download 
   - Check of availability of required Python packages
   - Reading a CSV file
   - Reading a JSON file
+  - Catalog & Atlas of the LV galaxies
+  - NED-1D database
+  - Type-Ia Supernovae from Open Supernova Catalog
+  - Unified Supernovae Catalogue
+  - Cosmological parameters
+  - Using astropy.cosmology module
 
 ## Binder web page ##
 
