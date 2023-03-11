@@ -12,6 +12,27 @@ Course material for this course can be downloaded from above page.
 If you are not taking the course "Astroinformatics" and are willing to download the course material, contact to me.
 (contact address: https://www.instagram.com/daisuke23888/)
 
+### course material ###
+
+Now, course material is available at following web page.
+
+- https://s3b.astro.ncu.edu.tw/ai_202209/#pdf_pav
+  - https://s3b.astro.ncu.edu.tw/ai_202209/pav/ai_202209_s01pq.pdf
+  - https://s3b.astro.ncu.edu.tw/ai_202209/pav/ai_202209_s02pq.pdf
+  - https://s3b.astro.ncu.edu.tw/ai_202209/pav/ai_202209_s03pq.pdf
+  - https://s3b.astro.ncu.edu.tw/ai_202209/pav/ai_202209_s04pq.pdf
+  - https://s3b.astro.ncu.edu.tw/ai_202209/pav/ai_202209_s05pq.pdf
+  - https://s3b.astro.ncu.edu.tw/ai_202209/pav/ai_202209_s06pq.pdf
+  - https://s3b.astro.ncu.edu.tw/ai_202209/pav/ai_202209_s07pq.pdf
+  - https://s3b.astro.ncu.edu.tw/ai_202209/pav/ai_202209_s08pq.pdf
+  - https://s3b.astro.ncu.edu.tw/ai_202209/pav/ai_202209_s09pq.pdf
+  - https://s3b.astro.ncu.edu.tw/ai_202209/pav/ai_202209_s10pq.pdf
+  - https://s3b.astro.ncu.edu.tw/ai_202209/pav/ai_202209_s11pq.pdf
+  - https://s3b.astro.ncu.edu.tw/ai_202209/pav/ai_202209_s12pq.pdf
+  - https://s3b.astro.ncu.edu.tw/ai_202209/pav/ai_202209_s13pq.pdf
+  - https://s3b.astro.ncu.edu.tw/ai_202209/pav/ai_202209_s14pq.pdf
+  - https://s3b.astro.ncu.edu.tw/ai_202209/pav/ai_202209_s15pq.pdf
+
 ## Sessions ##
 
 - session 01: Basic Python Programming
