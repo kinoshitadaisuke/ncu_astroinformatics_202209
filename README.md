@@ -14,7 +14,7 @@ If you are not taking the course "Astroinformatics" and are willing to download 
 
 ### course material ###
 
-Now, course material is available at following web page.
+Now, course material is available at following web page. (New in Mar/2023)
 
 - https://s3b.astro.ncu.edu.tw/ai_202209/#pdf_pav
   - https://s3b.astro.ncu.edu.tw/ai_202209/pav/ai_202209_s01pq.pdf
