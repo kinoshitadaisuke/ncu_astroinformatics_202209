@@ -6,6 +6,10 @@ For "Astroinformatics", we write Python scripts and do astronomy.
 
 "Astroinformatics" for academic year 2023: https://github.com/kinoshitadaisuke/ncu_astroinformatics_202309
 
+Now, the lecture note for "Astroinformatics" for academic year 2023 is available.
+
+- https://s3b.astro.ncu.edu.tw/ai_202309/pdfp/ai_202309_combined_p.pdf
+
 ## Course web page ##
 
 https://s3b.astro.ncu.edu.tw/ai_202209/
