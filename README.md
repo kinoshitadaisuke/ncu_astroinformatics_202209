@@ -4,7 +4,9 @@ This is the repository for the course "Astroinformatics" offered at Institute of
 
 For "Astroinformatics", we write Python scripts and do astronomy.
 
-"Astroinformatics" for academic year 2023: https://github.com/kinoshitadaisuke/ncu_astroinformatics_202309
+The repository for "Astroinformatics" for academic year 2023
+
+- https://github.com/kinoshitadaisuke/ncu_astroinformatics_202309
 
 Now, the lecture note for "Astroinformatics" for academic year 2023 is available.
 
